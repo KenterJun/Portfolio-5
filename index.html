@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Jost:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="page">
+
+        <div class="mobile-menu">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__list-item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="mobile-menu__list-item">
+                    <a href="about.html">About</a>
+                </li>
+                <li class="mobile-menu__list-item">
+                    <a href="#">Shop</a>
+                </li>
+                <li class="mobile-menu__list-item">
+                    <a href="#">Pages</a>
+                </li>
+                <li class="mobile-menu__list-item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="mobile-menu__list-item">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="header-btn d-flex justify-content-between align-items-center col-12 col-sm-6">
+                <a class="header-btn__link" href="#">
+                    <img src="img/search.png" alt="Поиск">
+                </a>
+                <a class="header-btn__link" href="#">
+                    <img src="img/people.png" alt="Личный кабинет">
+                </a>
+                <a class="header-btn__link" href="#">
+                    <img src="img/heart.png" alt="Закладки">
+                </a>
+                <a class="header-btn__link header-btn__link--basket" href="#">
+                    <img src="img/basket.png" alt="Корзина">
+                    <p class="header-btn__link-num">0</p>
+                </a>
+            </div>
+        </div>
+
+        <header class="header">
+            <div class="container">
+                <div class="header-top">
+                    <div class="row">
+                        <div class="logo col-xl-2 col-md-3 col-10">
+                            <a class="logo__link" href="#">
+                                <img class="logo__link-img" src="img/logo.png" alt="логотип">
+                            </a>
+                        </div>
+                        <nav class="menu-nav offset-xl-2 col-xl-6 col-md-6">
+                            <ul class="menu-nav__list">
+                                <li class="menu-nav__list-item">
+                                    <a class="menu-nav__item-link active" href="#">Home</a>
+                                </li>
+                                <li class="menu-nav__list-item">
+                                    <a class="menu-nav__item-link" href="about.html">About</a>
+                                </li>
+                                <li class="menu-nav__list-item">
+                                    <a class="menu-nav__item-link" href="#">Shop</a>
+                                </li>
+                                <li class="menu-nav__list-item">
+                                    <a class="menu-nav__item-link" href="#">Pages</a>
+                                </li>
+                                <li class="menu-nav__list-item">
+                                    <a class="menu-nav__item-link" href="#">Blog</a>
+                                </li>
+                                <li class="menu-nav__list-item">
+                                    <a class="menu-nav__item-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header-btn header-btn--desktop d-flex justify-content-between col-xl-2 col-md-3">
+                            <a class="header-btn__link" href="#">
+                                <img src="img/search.png" alt="Поиск">
+                            </a>
+                            <a class="header-btn__link" href="#">
+                                <img src="img/people.png" alt="Личный кабинет">
+                            </a>
+                            <a class="header-btn__link" href="#">
+                                <img src="img/heart.png" alt="Закладки">
+                            </a>
+                            <a class="header-btn__link header-btn__link--basket" href="#">
+                                <img src="img/basket.png" alt="Корзина">
+                                <p class="header-btn__link-num">0</p>
+                            </a>
+                        </div>
+                        <div class="mobile-menu__btn">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="header-bottom col-lg-6 col-md-8 col-12">
+                        <p class="header-bottom__pretitle">Welcome To Our Grocery Store</p>
+                        <h1 class="header-bottom__title">Shop Online For Fresh Grocries</h1>
+                        <p class="header-bottom__text">Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div class="header-bottom__btn d-flex">
+                            <a class="header-bottom__link section__link" href="#">Shop now</a>
+                            <a class="header-bottom__link section__link" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <div class="advantages">
+                <div class="container">
+                    <div class="row">
+                        <div class="advantages__list col-12">
+                            <div class="row d-flex justify-content-between">
+                                <div
+                                    class="advantages__list-item advantages__list-item--blue advantages__list-item--vegetable col-12 col-xl-4">
+                                    <h4 class="advantages__item-title">Get Every Vegetable You Need</h4>
+                                    <a class="advantages__item-link" href="#">Shop now</a>
+                                </div>
+                                <div
+                                    class="advantages__list-item advantages__list-item--orange advantages__list-item--grapefruit col-12 col-xl-4">
+                                    <h4 class="advantages__item-title">We Have Best Beverages Collection</h4>
+                                    <a class="advantages__item-link" href="#">Shop now</a>
+                                </div>
+                                <div
+                                    class="advantages__list-item advantages__list-item--green advantages__list-item--lemon col-12 col-xl-4">
+                                    <h4 class="advantages__item-title">Beauty And Health Products</h4>
+                                    <a class="advantages__item-link" href="#">Shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trending-product">
+                <div class="container">
+                    <div class="row">
+                        <p class="section__pretitle col-12">Most Popular</p>
+                        <h2 class="section__title col-12">Trending Products</h2>
+                        <div class="trending-product__list col-12">
+
+                            <div class="trending-product__wrapper d-flex justify-content-between row">
+
+                                <div
+                                    class="trending-product__list-item trending-product__list-item--hot col-12 col-lg-4">
+                                    <button class="trending-product__favorite" tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/trending-product-1.png"
+                                            alt="product-1">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Beef Steak</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$15</strike></p>
+                                            <p class="trending-product__item-price--new">$12</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                                <div
+                                    class="trending-product__list-item trending-product__list-item--favorite col-12 col-lg-4">
+                                    <button class="trending-product__favorite trending-product__favorite--active"
+                                        tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/trending-product-1.png"
+                                            alt="product-1">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Beef Steak</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$15</strike></p>
+                                            <p class="trending-product__item-price--new">$12</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                                <div
+                                    class="trending-product__list-item trending-product__list-item--hot col-12 col-lg-4">
+                                    <button class="trending-product__favorite" tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/trending-product-1.png"
+                                            alt="product-1">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Beef Steak</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$15</strike></p>
+                                            <p class="trending-product__item-price--new">$12</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+
+                                <div class="trending-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite" tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/trending-product-4.png"
+                                            alt="product-4">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Fresh Honey</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$50</strike></p>
+                                            <p class="trending-product__item-price--new">$40</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                                <div
+                                    class="trending-product__list-item trending-product__list-item--hot col-12 col-lg-4">
+                                    <button class="trending-product__favorite" tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/trending-product-5.png"
+                                            alt="product-5">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Fresh Milk</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$10</strike></p>
+                                            <p class="trending-product__item-price--new">$08</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="trending-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite" tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/trending-product-6.png"
+                                            alt="product-6">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Mango Beverage</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$22</strike></p>
+                                            <p class="trending-product__item-price--new">$18</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="#" class="banner__img">
+                                <img src="img/banner.png" alt="banner">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about__box col-12 offset-lg-5 col-lg-7">
+                            <p class="section__pretitle about__box-pretitle">About Us</p>
+                            <h2 class="section__title about__box-title">We Provide You The
+                                Best Experience</h2>
+                            <p class="about__box-text">
+                                Neque porro quisquam est aui dolorem iesum ruia dolor
+                                sit amet, consectetur, adipisci velit, sed quia non numua
+                                eius modi tempora incidunt ut labore et dolore magnam
+                                volutatem exercitationem ullam.
+                            </p>
+                            <p class="about__box-text">
+                                Quis autem vel eum iure reprehenderit aui in ea voluptae
+                                velit esse quam nihil molestiae consequatur, vel illum rui
+                                dolorem eum fugiat quo voluptas.
+                            </p>
+                            <a class="about__box-link section__link" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="services__list col-12 col-lg-3">
+                            <div class="services__list-item">
+                                <img class="services__item-img" src="img/services-1.png" alt="services-1">
+                                <h5 class="services__item-title">Quality Products</h5>
+                                <p class="services__item-text">Aui dolorem iesum ruia dolor
+                                    sit amet, consectetur, adipisci
+                                    eius modi incidunt</p>
+                            </div>
+                            <div class="services__list-item">
+                                <img class="services__item-img" src="img/services-2.png" alt="services-2">
+                                <h5 class="services__item-title">Fast Delivery</h5>
+                                <p class="services__item-text">Aui dolorem iesum ruia dolor
+                                    sit amet, consectetur, adipisci
+                                    eius modi incidunt</p>
+                            </div>
+                        </div>
+                        <div class="services__img col-12 col-lg-6">
+                            <img src="img/services-img.png" alt="cart-services">
+                            <a class="services__img-link section__link" href="#">Shop now</a>
+                        </div>
+                        <div class="services__list col-12 col-lg-3">
+                            <div class="services__list-item">
+                                <img class="services__item-img" src="img/services-3.png" alt="services-3">
+                                <h5 class="services__item-title">Online Order</h5>
+                                <p class="services__item-text">Aui dolorem iesum ruia dolor
+                                    sit amet, consectetur, adipisci
+                                    eius modi incidunt</p>
+                            </div>
+                            <div class="services__list-item">
+                                <img class="services__item-img" src="img/services-4.png" alt="services-4">
+                                <h5 class="services__item-title">24/7 Service</h5>
+                                <p class="services__item-text">Aui dolorem iesum ruia dolor
+                                    sit amet, consectetur, adipisci
+                                    eius modi incidunt</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trending-product featured-product">
+                <div class="container">
+                    <div class="row">
+                        <p class="section__pretitle col-12">Best Seller</p>
+                        <h2 class="section__title col-12">Featured Products</h2>
+                        <ul class="filter__list tabs-wrapper d-flex justify-content-md-center col-12">
+                            <li class="filter__list-item">
+                                <a class="filter__item-link tab tab--active" href="#tab-1">All</a>
+                            </li>
+                            <li class="filter__list-item">
+                                <a class="filter__item-link tab" href="#tab-2">Food</a>
+                            </li>
+                            <li class="filter__list-item">
+                                <a class="filter__item-link tab" href="#tab-3">Fruits</a>
+                            </li>
+                            <li class="filter__list-item">
+                                <a class="filter__item-link tab" href="#tab-4">Health</a>
+                            </li>
+                            <li class="filter__list-item">
+                                <a class="filter__item-link tab" href="#tab-5">Meat</a>
+                            </li>
+                            <li class="filter__list-item">
+                                <a class="filter__item-link tab" href="#tab-6">Dairy</a>
+                            </li>
+                        </ul>
+                        <div class="trending-product__list tabs-content tabs-content--active col-12" id="tab-1">
+
+                            <div class="trending-product__wrapper d-flex justify-content-between row">
+
+                                <div
+                                    class="trending-product__list-item trending-product__list-item--hot featured-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite featured-product__favorite"
+                                        tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/featured-product-1.png"
+                                            alt="product-1">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Fresh Bread</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$15</strike></p>
+                                            <p class="trending-product__item-price--new">$12</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="trending-product__list-item featured-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite featured-product__favorite"
+                                        tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/featured-product-2.png"
+                                            alt="product-1">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Red Pepper</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$20</strike></p>
+                                            <p class="trending-product__item-price--new">$15</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                                <div
+                                    class="trending-product__list-item trending-product__list-item--hot featured-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite featured-product__favorite"
+                                        tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/featured-product-3.png"
+                                            alt="product-1">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Orange Beverage</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$30</strike></p>
+                                            <p class="trending-product__item-price--new">$25</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+
+                                <div class="trending-product__list-item featured-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite featured-product__favorite"
+                                        tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/featured-product-4.png"
+                                            alt="product-4">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Dozen Eggs</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$15</strike></p>
+                                            <p class="trending-product__item-price--new">$12</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                                <div
+                                    class="trending-product__list-item trending-product__list-item--hot featured-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite featured-product__favorite"
+                                        tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/featured-product-5.png"
+                                            alt="product-5">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Cooking Oil</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$20</strike></p>
+                                            <p class="trending-product__item-price--new">$15</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                                <div class="trending-product__list-item featured-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite featured-product__favorite"
+                                        tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/featured-product-6.png"
+                                            alt="product-6">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Body Lotion</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$30</strike></p>
+                                            <p class="trending-product__item-price--new">$20</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trending-product__list tabs-content col-12" id="tab-2">
+                            <div class="trending-product__wrapper d-flex justify-content-between row">
+
+                                <div
+                                    class="trending-product__list-item trending-product__list-item--hot featured-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite featured-product__favorite"
+                                        tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/featured-product-1.png"
+                                            alt="product-1">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Fresh Bread</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$15</strike></p>
+                                            <p class="trending-product__item-price--new">$12</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="trending-product__list tabs-content col-12" id="tab-3">
+                            <div class="trending-product__wrapper d-flex justify-content-between row">
+
+                                <div class="trending-product__list-item featured-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite featured-product__favorite"
+                                        tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/featured-product-2.png"
+                                            alt="product-1">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Red Pepper</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$20</strike></p>
+                                            <p class="trending-product__item-price--new">$15</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="trending-product__list tabs-content col-12" id="tab-4">
+                            <div class="trending-product__wrapper d-flex justify-content-between row">
+
+                                <div class="trending-product__list-item featured-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite featured-product__favorite"
+                                        tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/featured-product-6.png"
+                                            alt="product-6">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Body Lotion</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$30</strike></p>
+                                            <p class="trending-product__item-price--new">$20</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="trending-product__list tabs-content col-12" id="tab-5">
+                            <div class="trending-product__wrapper d-flex justify-content-between row">
+
+                                <div
+                                    class="trending-product__list-item trending-product__list-item--hot featured-product__list-item col-12 col-lg-4">
+                                    <button class="trending-product__favorite featured-product__favorite"
+                                        tabindex="0"></button>
+                                    <div class="trending-product__item-images">
+                                        <img class="trending-product__item-img" src="img/featured-product-3.png"
+                                            alt="product-1">
+                                    </div>
+                                    <div class="trending-product__item-wrapper">
+                                        <a class="rateYo rateYo--trending-product" href="#" id="rateYo"></a>
+                                        <h5 class="trending-product__item-title">Orange Beverage</h5>
+                                        <div class="trending-product__item-price d-flex justify-content-center">
+                                            <p class="trending-product__item-price--old"><strike>$30</strike></p>
+                                            <p class="trending-product__item-price--new">$25</p>
+                                        </div>
+                                        <button class="trending-product__item-btn">add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="testimonials">
+                <div class="container">
+                    <div class="row">
+                        <p class="section__pretitle col-12">Testimonials</p>
+                        <h2 class="section__title col-12">What Our Customers Saying</h2>
+                        <div class="testimonials__list col-12 d-flex justify-content-between">
+                            <div class="testimonials__list-item">
+                                <p class="testimonials__item-text">”Quisquam est, qui dolorem ipsum quia dolor sit
+                                    consectetur adipisci velit sed quia non numqua
+                                    eius modi tempora incidunt ut labore et dolore
+                                    magnam aliquam quaerat voluptatem repudia
+                                    sint et molestiae”</p>
+                                <a class="rateYo" href="#" id="rateYo"></a>
+                                <div class="testimonials__item-box d-flex">
+                                    <p class="testimonials__item-author">Alina Parker</p>
+                                    <p class="testimonials__item-position">Ceo, GTD</p>
+                                </div>
+                            </div>
+                            <div class="testimonials__list-item">
+                                <p class="testimonials__item-text">”Exercitationem ullam corporis suscipit laborio
+                                    nisi ut aliquid ex ea commodi consequatur uis
+                                    autem vel eum iure reprehenderit qui in ea vou
+                                    velit esse quam nihil molestiae consequatur,
+                                    vel illum qui dolorem eum fugiat”</p>
+                                <a class="rateYo" href="#" id="rateYo"></a>
+                                <div class="testimonials__item-box d-flex">
+                                    <p class="testimonials__item-author">Kevin Andrew</p>
+                                    <p class="testimonials__item-position">Manager, Rex</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="corporation">
+                <div class="container">
+                    <div class="row">
+                        <ul
+                            class="corporation__list d-flex justify-content-between align-items-center col-12 offset-lg-4 col-lg-8">
+                            <li class="corporation__list-item">
+                                <a class="corporation__item-link" href="#">
+                                    <img src="img/corporation-1.png" alt="corporation-one">
+                                </a>
+                            </li>
+                            <li class="corporation__list-item">
+                                <a class="corporation__item-link" href="#">
+                                    <img src="img/corporation-2.png" alt="corporation-two">
+                                </a>
+                            </li>
+                            <li class="corporation__list-item">
+                                <a class="corporation__item-link" href="#">
+                                    <img src="img/corporation-3.png" alt="corporation-three">
+                                </a>
+                            </li>
+                            <li class="corporation__list-item">
+                                <a class="corporation__item-link" href="#">
+                                    <img src="img/corporation-4.png" alt="corporation-four">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="connection d-flex col-12">
+                            <img class="connection__img" src="img/connection-img.png" alt="корзина">
+                            <form class="connection__form">
+                                <h3 class="connection__form-title">Subscribe To Newsletter</h3>
+                                <div class="connection__form-box d-flex">
+                                    <input class="connection__form-input" type="text"
+                                        placeholder="Enter Your Email Address">
+                                    <button class="connection__form-btn">Subscribe Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__footer">
+                    <div class="container">
+                        <div class="menu__wrapper row d-flex">
+                            <ul class="menu__list col-6 col-md-3">
+                                <h6 class="menu__list-title">Store Location</h6>
+                                <li class="menu__list-item">
+                                    Addres: <br>
+                                    <span>121 King Street Melbourne,3000,
+                                        Australia</span>
+                                </li>
+                                <li class="menu__list-item">
+                                    Email: <br>
+                                    <span>info@groxistore.com</span>
+                                </li>
+                                <li class="menu__list-item">
+                                    Phone: <br>
+                                    <span>+1 23 45 6789</span>
+                                </li>
+                            </ul>
+                            <ul class="menu__list col-6 offset-md-1 col-md-2">
+                                <h6 class="menu__list-title">Useful Links</h6>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">About us</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">Blog</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">Check out</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">Contact</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">Service</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">Shop</a>
+                                </li>
+                            </ul>
+                            <ul class="menu__list col-6 offset-md-1 col-md-2">
+                                <h6 class="menu__list-title">Categories</h6>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">Fruits & Vegetables</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">Dairy Products</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">Package Foods</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">Beverage</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">Health & Wellness</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a class="menu__item-link" href="#">Meat Varieties</a>
+                                </li>
+                            </ul>
+                            <ul class="menu__list col-6 offset-md-1 col-md-2">
+                                <h6 class="menu__list-title">Opening Hours</h6>
+                                <li class="menu__list-item">
+                                    Monday – Saturday <br>
+                                    <span>12.00 – 14.45</span>
+                                </li>
+                                <li class="menu__list-item">
+                                    Sunday – Thursday <br>
+                                    <span>17.30 – 00.00</span>
+                                </li>
+                                <li class="menu__list-item">
+                                    Friday – Saturday <br>
+                                    <span>17.30 – 00.00</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer__bottom-box col-12 d-flex justify-content-between">
+                                <p class="footer__bottom-copyright">Copyright 2020, Groxi Store. All Rights Reserved.
+                                </p>
+                                <div class="social d-flex align-items-center">
+                                    <p class="social__text">Follow us:</p>
+                                    <ul class="social__list d-flex">
+                                        <li class="social__list-item">
+                                            <a class="social__item-link" href="#">
+                                                <img src="img/facebook.png" alt="facebook">
+                                            </a>
+                                        </li>
+                                        <li class="social__list-item">
+                                            <a class="social__item-link" href="#">
+                                                <img src="img/twitter.png" alt="twitter">
+                                            </a>
+                                        </li>
+                                        <li class="social__list-item">
+                                            <a class="social__item-link" href="#">
+                                                <img src="img/linkedin.png" alt="linkedin">
+                                            </a>
+                                        </li>
+                                        <li class="social__list-item">
+                                            <a class="social__item-link" href="#">
+                                                <img src="img/pinterest.png" alt="pinterest">
+                                            </a>
+                                        </li>
+                                        <li class="social__list-item">
+                                            <a class="social__item-link" href="#">
+                                                <img src="img/instagram.png" alt="instagram">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
