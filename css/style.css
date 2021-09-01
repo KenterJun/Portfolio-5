@@ -391,7 +391,7 @@ p {
 
 @media (max-width: 450px) {
     .header {
-        background: url('/img/header-bg.jpg') 0 0 no-repeat;
+        background: url('../img/header-bg.jpg') 0 0 no-repeat;
         background-color: #f0f1f4;
     }
 }
@@ -424,15 +424,15 @@ p {
 }
 
 .advantages__list-item--vegetable {
-    background: url('/img/advantages-1.png') 155px 45px no-repeat;
+    background: url('../img/advantages-1.png') 155px 45px no-repeat;
 }
 
 .advantages__list-item--grapefruit {
-    background: url('/img/advantages-2.png') 185px 40px no-repeat;
+    background: url('../img/advantages-2.png') 185px 40px no-repeat;
 }
 
 .advantages__list-item--lemon {
-    background: url('/img/advantages-3.png') 185px 10px no-repeat;
+    background: url('../img/advantages-3.png') 185px 10px no-repeat;
 }
 
 .advantages__list-item--blue {
@@ -474,7 +474,7 @@ p {
     right: -20px;
     width: 13px;
     height: 11px;
-    background: url('/img/right-arrow.png') 0 0 no-repeat;
+    background: url('../img/right-arrow.png') 0 0 no-repeat;
 }
 
 .advantages__item-link:hover {
@@ -508,13 +508,13 @@ p {
         width: 100%;
     }
     .advantages__list-item--vegetable {
-        background: url('/img/advantages-1.png') 110px 45px no-repeat;
+        background: url('../img/advantages-1.png') 110px 45px no-repeat;
     }
     .advantages__list-item--grapefruit {
-        background: url('/img/advantages-2.png') 130px 40px no-repeat;
+        background: url('../img/advantages-2.png') 130px 40px no-repeat;
     }
     .advantages__list-item--lemon {
-        background: url('/img/advantages-3.png') 130px 10px no-repeat;
+        background: url('../img/advantages-3.png') 130px 10px no-repeat;
     }
     .advantages__list-item--blue {
         background-color: #92ddd8;
@@ -589,7 +589,7 @@ p {
     height: 16px;
     top: 12px;
     left: 11px;
-    background: url('/img/favorite.png') 0 0 no-repeat;
+    background: url('../img/favorite.png') 0 0 no-repeat;
 }
 
 .trending-product__list-item--favorite {
@@ -606,7 +606,7 @@ p {
 }
 
 .trending-product__favorite--active::before {
-    background: url('/img/favorite-white.png') 0 0 no-repeat;
+    background: url('../img/favorite-white.png') 0 0 no-repeat;
 }
 
 .trending-product__item-img {
@@ -723,7 +723,7 @@ p {
 /* About */
 
 .about {
-    background: url('/img/about-bg.png') 0 -102px no-repeat;
+    background: url('../img/about-bg.png') 0 -102px no-repeat;
     background-color: #f6fafb;
     margin-bottom: 140px;
 }
@@ -949,7 +949,7 @@ p {
     padding: 40px;
     padding-top: 120px;
     width: 540px;
-    background: url('/img/testimonials-bg.png') 40px 50px no-repeat;
+    background: url('../img/testimonials-bg.png') 40px 50px no-repeat;
     background-color: #f6fafb;
 }
 
